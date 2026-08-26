@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "QuickSpeak TTS",
+  "version": "1.0.0",
+  "description": "Text-to-Speech cepat dari teks yang diblok.",
+  "permissions": [
+    "storage",
+    "tts"
+  ],
+  "action": {
+    "default_title": "QuickSpeak TTS",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "content.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "options_page": "popup.html",
+  "background": {
+    "service_worker": "background.js"
+  }
+}

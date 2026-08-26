@@ -1,0 +1,20 @@
+#quickspeak-tts-button {
+  position: absolute;
+  z-index: 2147483647;
+  width: 34px;
+  height: 34px;
+  border: 0;
+  border-radius: 50%;
+  background: #111827;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 14px rgba(0,0,0,.25);
+  display: none;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  line-height: 1;
+}
+#quickspeak-tts-button:hover { transform: scale(1.08); }
+#quickspeak-tts-button.qs-playing { background: #2563eb; }
+#quickspeak-tts-button.qs-error { background: #dc2626; }
