@@ -1,33 +1,24 @@
 QuickSpeak TTS
 Features:
+- Highlight text on any website.
+- A speaker icon appears near the highlighted text.
+- Click the icon to read the text aloud.
+- Choose from voices available on your device/Chrome.
+- Adjust speed, pitch, and volume.
+- No API key or paid service required.
 
-Highlight text on any website.
-
-A speaker icon appears near the highlighted text.
-
-Click the icon to read the text aloud.
-
-Choose from voices available on your device/Chrome.
-
-Adjust speed, pitch, and volume.
-
-No API key or paid service required.
+Download:
+1. Click "<>Code" in green button.
+2. Click "Downlad Zip".
 
 Installation:
-
-Extract the ZIP file.
-
-Open chrome://extensions.
-
-Enable Developer mode.
-
-Click Load unpacked.
-
-Select the quickspeak-tts-extension folder.
-
-Open or reload a webpage.
-
-Highlight text and click the 🔊 icon.
+- Extract the ZIP file.
+- Open chrome://extensions.
+- Enable Developer mode.
+- Click Load unpacked.
+- Select the quickspeak-tts-extension folder.
+- Open or reload a webpage.
+- Highlight text and click the 🔊 icon.
 
 Notes:
 Voices are provided by the Web Speech API / speech synthesis available in Chrome and your operating system. The types of voices vary depending on your device, OS, and Chrome configuration.
@@ -43,6 +34,10 @@ Fitur:
 - Pilih voice yang tersedia di perangkat/Chrome.
 - Atur speed, pitch, dan volume.
 - Tidak membutuhkan API key atau layanan berbayar.
+
+Unduh:
+1. Klik "<>Code" pada tombol hijau.
+2. Klik "Downlad Zip".
 
 INSTALASI:
 1. Ekstrak ZIP.
