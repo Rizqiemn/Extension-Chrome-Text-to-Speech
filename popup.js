@@ -71,7 +71,7 @@ $("test").onclick = () => {
   const v = voices[Number($("voice").value)];
   chrome.tts.stop();
   chrome.tts.speak(
-    "Halo, ini adalah tes suara QuickSpeak TTS.",
+    "Hello, this is a QuickSpeak TTS voice test by Rizqiemn. Don’t forget to follow my social media. Thank you.",
     {
       voiceName: v?.voiceName,
       rate: Number($("rate").value),

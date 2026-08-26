@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "QuickSpeak TTS",
+  "name": "QuickSpeak TTS by Rizqiemn",
   "version": "1.0.0",
   "description": "Text-to-Speech cepat dari teks yang diblok.",
   "permissions": [
@@ -8,7 +8,7 @@
     "tts"
   ],
   "action": {
-    "default_title": "QuickSpeak TTS",
+    "default_title": "QuickSpeak TTS by Rizqiemn",
     "default_popup": "popup.html"
   },
   "content_scripts": [
